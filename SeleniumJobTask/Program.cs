@@ -32,6 +32,7 @@ namespace SeleniumJobTask
             //Initializing PageObject
             PageObject pageObject = loginPageObject.Login("Admin", "Admin");
             pageObject.FillUserForm("FB", "Filip", "Boric", "Mr.");
+            pageObject.ClickFemaleGender();
         }
         [TearDown]
         public void Cleanup()

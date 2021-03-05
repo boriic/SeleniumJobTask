@@ -14,6 +14,8 @@ namespace SeleniumJobTask.PageObjects
         public PageObject(IWebDriver driver) => _driver = driver;
 
         public IWebElement dropDownListId => _driver.FindElement(By.Id("TitleId"));
+        public IWebElement maleGenderRadioButton => _driver.FindElement(By.Name("Male"));
+        public IWebElement femaleGenderRadioButton => _driver.FindElement(By.Name("Female"));
         public IWebElement txtForInitialField => _driver.FindElement(By.Name("Initial"));
         public IWebElement txtForFirstNameField => _driver.FindElement(By.Name("FirstName"));
         public IWebElement txtForMiddleNameField => _driver.FindElement(By.Name("MiddleName"));
@@ -25,6 +27,14 @@ namespace SeleniumJobTask.PageObjects
             txtForInitialField.EnterText(initial);
             txtForFirstNameField.EnterText(firstName);
             txtForMiddleNameField.EnterText(middleName);
+        }
+        public void ClickMaleGender()
+        {
+            maleGenderRadioButton.Click();
+        }
+        public void ClickFemaleGender()
+        {
+            femaleGenderRadioButton.Click();
         }
     }
 }

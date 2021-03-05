@@ -29,6 +29,14 @@ namespace SeleniumJobTask.Methods
             element.Click();
         }
         /// <summary>
+        /// Method used for clicking a button, checkbox, option etc
+        /// </summary>
+        /// <param name="element"></param>
+        public static void Click(this IWebElement element, string value)
+        {
+            element.Click(value);
+        }
+        /// <summary>
         /// Selecting value in dropdown
         /// </summary>
         /// <param name="element"></param>
