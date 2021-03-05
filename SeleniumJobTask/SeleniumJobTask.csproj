@@ -60,6 +60,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Methods\SeleniumGetMethods.cs" />
+    <Compile Include="Methods\SeleniumSetMethods.cs" />
+    <Compile Include="PageObjects\LoginPageObject.cs" />
+    <Compile Include="PageObjects\PageObject.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
