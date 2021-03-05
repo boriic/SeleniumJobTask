@@ -1,0 +1,14 @@
+
+TESTING FLOW 
+{
+1.Login screen "Execute Automation Selenium Test Site" is presented when application is started.
+2.In this case Username and Password are not required but i placed some dummy values, after that button login is pressed.
+3.After pressing login you are redirected to the main testing page.
+4.Then fields : Title,Initial,First Name, Middle Name are being populated, Female radio button is being pressed and then button Save is being pressed.
+}
+Razlog zašto je ovo sve jedan veliki commit jer sam napravio projekt postepeno na drugom repository-u
+ali imao sam problema sa pokretanjem chrome drivera izgleda da sam krivi prvi puta bio instalirao.
+Pa sam napravio drugi projekt gdje sam odgovarajuće NuGet pakete instalirao pa sada sve radi i prolazi test.
+Za sada kroz ovaj manji test nisam pronalazio velike probleme, pratio sam playlistu do kraja jer mi se nije svidjelo
+kako je kod na početku playliste izgledao, previše je bilo ponavljanja sličnog nepotrebnog koda pa sam pratio do kraja 
+i reformatirao kod uz pomoć videa.
