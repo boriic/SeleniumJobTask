@@ -27,6 +27,7 @@ namespace SeleniumJobTask.PageObjects
             txtForInitialField.EnterText(initial);
             txtForFirstNameField.EnterText(firstName);
             txtForMiddleNameField.EnterText(middleName);
+            btnSave.Click();
         }
         public void ClickMaleGender()
         {
